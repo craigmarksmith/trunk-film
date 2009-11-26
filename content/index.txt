@@ -5,21 +5,23 @@ filter:
   - erb
 ---
 
-<%
-height = 506
-width = 900
-urls = [
-  'http://vimeo.com/moogaloop.swf?clip_id=7781274&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1',
-  # 'http://vimeo.com/moogaloop.swf?clip_id=7044832&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1'
-].each do |url|
-%>
-<div class='movie'>
-  <object width="<%= width %>" height="<%= height %>">
-    <param name="allowfullscreen" value="true" />
-    <param name="allowscriptaccess" value="always" />
-    <param name="movie" value="<%= url %>" />
-    <embed src="<%= url %>" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="<%= width %>" height="<%= height %>"></embed>
-  </object>
+<div id='movies'>
+  <%
+  height = 506
+  width = 900
+  urls = [
+    'http://vimeo.com/moogaloop.swf?clip_id=7781274&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1',
+    'http://vimeo.com/moogaloop.swf?clip_id=7044832&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1'
+  ].each do |url|
+  %>
+  <div class='movie'>
+    <object width="<%= width %>" height="<%= height %>">
+      <param name="allowfullscreen" value="true" />
+      <param name="allowscriptaccess" value="always" />
+      <param name="movie" value="<%= url %>" />
+      <embed src="<%= url %>" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="<%= width %>" height="<%= height %>"></embed>
+    </object>
+  </div>
+  <% end %>
 </div>
-<% end %>
 

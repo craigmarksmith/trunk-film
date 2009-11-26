@@ -30,7 +30,6 @@ filter:    erb
       <li id="blog"><a href="">blog</a></li>
     </ul>
   </div>
-  
   <div id='content-window'>
     <%= @content %>
   </div>

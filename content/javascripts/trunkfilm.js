@@ -7,8 +7,12 @@ TrunkFilm.Movies = {
     $('#scroll-left').click(TrunkFilm.Movies.scrollLeft);
     $('#scroll-right').click(TrunkFilm.Movies.scrollRight);
     $('#contact-details').hide();
-    $('#contact a').click(function(){
-      $('#contact-details').toggle();
+    $('#contact a').mouseover(function(){
+      $('#contact-details').show();
+      return false;
+    });
+    $('#contact a').mouseout(function(){
+      $('#contact-details').hide();
       return false;
     });
   },

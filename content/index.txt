@@ -5,10 +5,9 @@ filter:
   - erb
 ---
 
-<div id='scroll-left' class="arrow"><a href="">scroll movies left</a></div>
-<div id='scroll-right' class="arrow"><a href="">scroll movies right</a></div>
-
 <div id='movies'>
+  <div id='scroll-left' class="arrow"><a href="">scroll movies left</a></div>
+  <div id='scroll-right' class="arrow"><a href="">scroll movies right</a></div>
   <%
   height = 506
   width = 900

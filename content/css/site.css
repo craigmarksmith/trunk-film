@@ -89,11 +89,15 @@ div#content-window {
 
 div#movies {
   width:10000px;
+  position:relative;
+}
+
+div.arrow {
+  position:absolute;
+  top:210px;
 }
 
 div.arrow a {
-  position:absolute;
-  top:350px;
   padding-top:80px;
   display:block;
   overflow:hidden;
@@ -103,12 +107,18 @@ div.arrow a {
   background-position:center center;
 }
 
+div#scroll-left {
+  left:-40px;
+}
+
 div#scroll-left a {
-  left:310px;
   background-image:url('../images/left-arrow.png');
 }
 
+div#scroll-right {
+  left:740px;
+}
+
 div#scroll-right a {
-  right:310px;
   background-image:url('../images/right-arrow.png');
 }

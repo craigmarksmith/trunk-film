@@ -82,8 +82,8 @@ ul#menu li#blog a:hover {
 
 div#contact-details {
   position:absolute;
-  top:140px;
-  left:820px;
+  top:0px;
+  left:484px;
   z-index:2;
   height:120px;
   width:300px;

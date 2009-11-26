@@ -27,7 +27,7 @@ filter:    erb
       <li id="film"><a href="">film</a></li>
       <li id="about-us"><a href="">about us</a></li>
       <li id="contact"><a href="">contact</a></li>
-      <li id="blog"><a href="">blog</a></li>
+      <li id="blog"><a href="http://trunkfilms.wordpress.com/">blog</a></li>
     </ul>
   </div>
   <div id='content-window'>

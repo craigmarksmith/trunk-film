@@ -14,20 +14,20 @@ filter:    erb
    <script src="javascripts/trunkfilm.js" type="text/javascript"></script>
 
    <!--[if IE]>
-      <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+      <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
    <![endif]-->
 
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="css/site.css" type="text/css" media="screen" />
 </head>
 <body>
   <div id='header'>
     <a href="/" id='trunk-logo'><img src="images/trunk-logo.png" alt="trunk films logo"/></a>
     <ul id="menu">
-      <li id="film"><img src="/images/menu/film.png" alt="film" /></li>
-      <li id="about-us"><img src="/images/menu/about-us.png" alt="about us" /></li>
-      <li id="contact"><img src="/images/menu/contact.png" alt="contact" /></li>
-      <li id="blog"><img src="/images/menu/blog.png" alt="blog" /></li>
+      <li id="film"><img src="images/menu/film.png" alt="film" /></li>
+      <li id="about-us"><img src="images/menu/about-us.png" alt="about us" /></li>
+      <li id="contact"><img src="images/menu/contact.png" alt="contact" /></li>
+      <li id="blog"><img src="images/menu/blog.png" alt="blog" /></li>
     </ul>
   </div>
   

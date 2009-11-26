@@ -82,6 +82,7 @@ div#content-window {
   margin:0 auto;
   overflow:hidden;
   clear:left;
+  position:relative;
 }
 
 
@@ -89,7 +90,6 @@ div#content-window {
 
 div#movies {
   width:10000px;
-  position:relative;
 }
 
 div.arrow {

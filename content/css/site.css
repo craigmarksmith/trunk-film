@@ -6,6 +6,10 @@ body {
   font-weight:normal;
 }
 
+li {
+  list-style-type: none;
+}
+
 div#header div#trunk-logo a img {
   border:0;
 }
@@ -85,4 +89,26 @@ div#content-window {
 
 div#movies {
   width:10000px;
+}
+
+div.arrow a {
+  position:absolute;
+  top:350px;
+  padding-top:80px;
+  display:block;
+  overflow:hidden;
+  height:0;
+  width:200px;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+div#scroll-left a {
+  left:310px;
+  background-image:url('../images/left-arrow.png');
+}
+
+div#scroll-right a {
+  right:310px;
+  background-image:url('../images/right-arrow.png');
 }

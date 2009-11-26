@@ -56,6 +56,21 @@ ul#menu li#blog a {
   background-image:url('../images/menu/blog.png');
 }
 
+ul#menu li#film a:hover {
+  background-image:url('../images/menu/film-hover.png');
+}
+
+ul#menu li#about-us a:hover {
+  background-image:url('../images/menu/about-us-hover.png');
+}
+
+ul#menu li#contact a:hover {
+  background-image:url('../images/menu/contact-hover.png');
+}
+
+ul#menu li#blog a:hover {
+  background-image:url('../images/menu/blog-hover.png');
+}
 
 div#content-window {
   width:900px;

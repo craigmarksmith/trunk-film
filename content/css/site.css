@@ -86,12 +86,12 @@ div#contact-details {
   left:484px;
   z-index:2;
   height:120px;
-  width:300px;
+  width:280px;
   background-color:#000;
   opacity: 0.5;
   color:#FFF;
   padding:5px;
-  font-size:14px;
+  font-size:13px;
   font-weight:lighter;
 }
 

@@ -76,6 +76,34 @@ ul#menu li#blog a:hover {
   background-image:url('../images/menu/blog-hover.png');
 }
 
+div#contact-details {
+  position:absolute;
+  top:140px;
+  left:820px;
+  z-index:2;
+  height:120px;
+  width:300px;
+  background-color:#000;
+  opacity: 0.5;
+  color:#FFF;
+  padding:5px;
+  font-size:14px;
+  font-weight:lighter;
+}
+
+div#contact-details h3 {
+  padding:0;
+  margin:0;
+  margin-bottom:5px;
+  font-size:12px;
+}
+
+div#contact-details div.personal-info {
+  float:left;
+  padding-right:9px;
+  padding-top:9px;
+}
+
 div#content-window {
   width:900px;
   height:506px;

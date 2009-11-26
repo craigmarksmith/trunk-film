@@ -6,6 +6,11 @@ TrunkFilm.Movies = {
     current_position = 0;
     $('#scroll-left').click(TrunkFilm.Movies.scrollLeft);
     $('#scroll-right').click(TrunkFilm.Movies.scrollRight);
+    $('#contact-details').hide();
+    $('#contact a').click(function(){
+      $('#contact-details').toggle();
+      return false;
+    });
   },
 
   scrollLeft: function(){

@@ -29,6 +29,26 @@ filter:    erb
       <li id="contact"><a href="">contact</a></li>
       <li id="blog"><a href="http://trunkfilms.wordpress.com/">blog</a></li>
     </ul>
+
+    <div id="contact-details">
+      <div class='general'>
+      <h3>general inquiries:</h3>
+      info@trunkfilms.com<br/>
+      (+44) (0) 208 351 7257
+      </div>
+
+      <div class="personal-info">
+        Steve Middleditch<br/>
+        (+44) (0) 7763 629721<br/>
+        steve@trunkfilms.com
+      </div>
+      <div class="personal-info">
+        Will Billany<br/>
+        (+44) (0) 7760 489704<br/>
+        will@trunkfilms.com
+      </div>
+    </div>
+
   </div>
   <div id='content-window'>
     <%= @content %>

@@ -6,22 +6,56 @@ body {
   font-weight:normal;
 }
 
+div#header div#trunk-logo a img {
+  border:0;
+}
+
 div#header {
   width:900px;
   margin:50px auto 0 auto;
 }
 
-img#trunk-logo {
-  display:inline;
+div#trunk-logo {
+  float:left;
 }
 
 ul#menu {
-  display:inline;
+  float:left;
+  margin:0;
+  margin-top:49px;
 }
 
 ul#menu li {
-  display:inline;
+  float:left;
+  width:110px;
 }
+
+ul#menu li a {
+  display:block;
+  width:85px;
+  height:0;
+  padding-top:30px;
+  overflow:hidden;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+ul#menu li#film a {
+  background-image:url('../images/menu/film.png');
+}
+
+ul#menu li#about-us a {
+  background-image:url('../images/menu/about-us.png');
+}
+
+ul#menu li#contact a {
+  background-image:url('../images/menu/contact.png');
+}
+
+ul#menu li#blog a {
+  background-image:url('../images/menu/blog.png');
+}
+
 
 div#content-window {
   width:900px;

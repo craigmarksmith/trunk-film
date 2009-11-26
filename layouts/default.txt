@@ -25,12 +25,16 @@ filter:    erb
     <a href="/" id='trunk-logo'><img src="images/trunk-logo.png" alt="trunk films logo"/></a>
     <ul id="menu">
       <li id="film"><img src="/images/menu/film.png" alt="film" /></li>
-      <li id="about-us"><img src="/images/menu/film.png" alt="film" /></li>
-      <li id="contact"><img src="/images/menu/film.png" alt="film" /></li>
-      <li id="blog"><img src="/images/menu/film.png" alt="film" /></li>
+      <li id="about-us"><img src="/images/menu/about-us.png" alt="about us" /></li>
+      <li id="contact"><img src="/images/menu/contact.png" alt="contact" /></li>
+      <li id="blog"><img src="/images/menu/blog.png" alt="blog" /></li>
     </ul>
   </div>
   
-  
+  <div id='content-window'>
+    <%= @content %>
+  </div>
+
+
 </body>
 </html>

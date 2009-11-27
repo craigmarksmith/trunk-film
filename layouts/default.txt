@@ -24,8 +24,8 @@ filter:    erb
   <div id='header'>
     <div id='trunk-logo'><a href="/"><img src="images/trunk-logo.png" alt="trunk films logo"/></a></div>
     <ul id="menu">
-      <li id="film"><a href="">film</a></li>
-      <li id="about-us"><a href="">about us</a></li>
+      <li id="film"><a href="/">film</a></li>
+      <li id="about-us"><a href="about-us.html">about us</a></li>
       <li id="contact"><a href="">contact</a></li>
       <li id="blog"><a href="http://trunkfilms.wordpress.com/">blog</a></li>
     </ul>

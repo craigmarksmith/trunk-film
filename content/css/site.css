@@ -158,3 +158,11 @@ div#scroll-right {
 div#scroll-right a {
   background-image:url('../images/right-arrow.png');
 }
+
+
+/* about us */
+div#about-us {
+  background-color:#153d49;
+  height:100%;
+  width:10000px;
+}

@@ -166,3 +166,33 @@ div#about-us {
   height:100%;
   width:10000px;
 }
+
+div#about-us img {
+  margin-top:35px;
+  padding:0;
+}
+
+div#arrow-border {
+  background-color:#AFAFAF;
+  height:65px;
+  padding:0;
+  margin:0;
+}
+
+div.text {
+  width:655px;
+  padding:5px 0;
+  color:#FFF;
+  float:left;
+  font-size:14px;
+}
+
+div.text h2 {
+  width:100%;
+  border-bottom:4px solid #FFF;
+  padding-left:20px;
+}
+
+div.text p {
+  padding:3px 20px;
+}

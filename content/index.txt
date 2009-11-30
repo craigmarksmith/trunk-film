@@ -26,3 +26,8 @@ filter:
   <% end %>
 </div>
 
+<script>
+  $(document).ready(function(){
+    TrunkFilm.Movies.init();
+  });
+</script>

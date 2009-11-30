@@ -201,3 +201,9 @@ div.text h2 {
 div.text p {
   padding:3px 20px;
 }
+
+div#about-us ul {
+  margin:0;
+  padding:0;
+  padding-left:20px;
+}

@@ -14,13 +14,12 @@ filter:
   <div id="texts">
     <div class="text">
       <h2>We make films.</h2>
-      <p>trunkfilms was formed out of a shared enthusiasm for film, adventure and a want for a fairer & more sustainable world.</p>
-      <p>Film is a powerful medium capable of disseminating knowledge and challenging perceptions. We aim to make films with soul, films that are not only visually stimulating, but get the story across to the viewer in a fresh and engaging way.</p>
+      <p>trunk films is an independent production company based in London. We specialise in producing documentaries, original films, promos, TV demo’s and viral content for television, film and the web. Films that challenge perceptions, engage and inform their audiences.</p>
     </div>
     <div class="text">
       <h2>How &amp; What.</h2>
-      <p>WE’VE SEEN THE FUTURE (of affordable HD film production) - it's pretty epic. We're using the latest HD (High Definition) DSLR (Digital SLR) technology and HD video equipment. This equipment is giving us the opportunity to produce content that we've always wanted to, it looks awesome and we want to show you!</p>
-      <p>Our solid state cameras and Final Cut Studio editing suite help us maintain a fast and efficient workflow to deliver your films on time and in budget, without the need for dv tapes and annoying capture times.</p>
+      <p>WE’VE SEEN THE FUTURE (of affordable HD film production) - it's pretty epic. We're using the latest High Definition Digital SLR  technology and HD video equipment.</p>
+      <p>Our solid state (memory card) cameras and Final Cut Studio editing suite help us maintain a fast and efficient workflow to deliver your project on time and in budget.</p>
     </div>
     <div class="text">
       <h2>ethos</h2>

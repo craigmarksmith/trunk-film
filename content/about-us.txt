@@ -26,7 +26,7 @@ filter:
       <h2>ethos</h2>
       <p>stuff I don't have the text for.</p>
     </div>
-    <div class="text">
+    <div class="text last">
       <h2>equipment.</h2>
       <ul>
         <li>Canon 7D with fast primes and L lenses</li>

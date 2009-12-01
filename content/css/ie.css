@@ -1,0 +1,8 @@
+ul#menu {
+  padding-bottom:10px;
+}
+
+ul#menu li a {
+  height:3px;
+  background-position:bottom;
+}

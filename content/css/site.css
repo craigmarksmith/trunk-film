@@ -180,6 +180,10 @@ div#arrow-border {
   margin-top:-5px;
 }
 
+div#texts {
+  zoom:1;
+}
+
 div.text {
   width:655px;
   padding:5px 0;

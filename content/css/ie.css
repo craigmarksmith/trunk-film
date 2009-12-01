@@ -6,3 +6,11 @@ ul#menu li a {
   height:3px;
   background-position:bottom;
 }
+
+div#arrow-border {
+  margin-top:-3px;
+}
+
+div#about-us img {
+  margin-top:45px;
+}

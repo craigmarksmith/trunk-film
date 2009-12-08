@@ -11,6 +11,8 @@ filter:
   height = 506
   width = 900
   urls = [
+    '8042205',
+    '7941668',
     '7781274',
     '7044832'
   ].each do |clip_id|

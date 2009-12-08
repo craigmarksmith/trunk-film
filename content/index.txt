@@ -11,12 +11,13 @@ filter:
   height = 506
   width = 900
   urls = [
-    'http://vimeo.com/moogaloop.swf?clip_id=7781274&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1',
-    'http://vimeo.com/moogaloop.swf?clip_id=7044832&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1'
-  ].each do |url|
+    '7781274',
+    '7044832'
+  ].each do |clip_id|
+    url = "http://vimeo.com/moogaloop.swf?clip_id=#{clip_id}&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
   %>
   <div class='movie'>
-    <object width="<%= width %>" height="<%= height %>">
+    <object id="<%= clip_id %>" width="<%= width %>" height="<%= height %>">
       <param name="allowfullscreen" value="true" />
       <param name="allowscriptaccess" value="always" />
       <param name="movie" value="<%= url %>" />
@@ -28,6 +29,6 @@ filter:
 
 <script>
   $(document).ready(function(){
-    TrunkFilm.Movies.init();
+    TrunkFilm.Movies.init(<%= height %>, <%= width %>);
   });
 </script>

@@ -11,15 +11,21 @@ TrunkFilm = {
 TrunkFilm.Movies = {
   amount_to_move: 900,
   current_position: 0,
+  height: 0,
+  width: 0,
 
-  init: function(){
+  init: function(height, width){
+    TrunkFilm.Movies.height = height;
+    TrunkFilm.Movies.width = width;
     $('#scroll-left').click(TrunkFilm.Movies.scrollLeft);
     $('#scroll-right').click(TrunkFilm.Movies.scrollRight);
+    TrunkFilm.Movies.addSwobjects();
   },
 
   scrollLeft: function(){
     if(TrunkFilm.Movies.current_position > 0){
       TrunkFilm.Movies.scroll('+='+TrunkFilm.Movies.amount_to_move+'px');
+      $('.movie object')[TrunkFilm.Movies.current_position].api_pause();
       TrunkFilm.Movies.current_position--;
     }
     return false;
@@ -28,6 +34,7 @@ TrunkFilm.Movies = {
   scrollRight: function(){
     if(TrunkFilm.Movies.current_position < ($('.movie').size()-1)){
       TrunkFilm.Movies.scroll('-='+TrunkFilm.Movies.amount_to_move+'px');
+      $('.movie object')[TrunkFilm.Movies.current_position].api_pause();
       TrunkFilm.Movies.current_position++;
     }
     return false;
@@ -37,6 +44,26 @@ TrunkFilm.Movies = {
     $('#movies').animate({
       marginLeft: scroll_amount
     }, 1000);
+  },
+  
+  addSwobjects: function(){
+    var count = 0;
+    $('.movie object').each(function(){
+      
+      var flashvars = {
+        clip_id: this.id,
+        show_portrait: 1,
+        show_byline: 1,
+        show_title: 1,
+        js_api: 1
+      };
+      var params = {
+        allowscriptaccess: 'always',
+        allowfullscreen: 'true'
+      };
+      var attributes = {};
+      swfobject.embedSWF("http://vimeo.com/moogaloop.swf", this.id, TrunkFilm.Movies.width, TrunkFilm.Movies.height, "9.0.0","expressInstall.swf", flashvars, params, attributes);
+    });
   }
 
 },

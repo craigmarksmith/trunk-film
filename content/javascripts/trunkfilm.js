@@ -19,7 +19,25 @@ TrunkFilm.Movies = {
     TrunkFilm.Movies.width = width;
     $('#scroll-left').click(TrunkFilm.Movies.scrollLeft);
     $('#scroll-right').click(TrunkFilm.Movies.scrollRight);
+    $('.arrow').hide();
+    $().mousemove(function(e){
+      if(TrunkFilm.Movies.mouseIsOverVideo(e.pageX, e.pageY)){
+        $('.arrow').show('slow');
+      }else{
+        $('.arrow').hide('slow');
+      }
+    });
     TrunkFilm.Movies.addSwobjects();
+  },
+
+  mouseIsOverVideo: function(x, y){
+    var cw = $('#content-window');
+    var cw_position = cw.position();
+
+    if((y > cw_position.top) && (y < (cw_position.top + cw.height())) && (x > cw_position.left) && (x < (cw_position.left + cw.width()))){
+      return true;
+    }
+    return false;
   },
 
   scrollLeft: function(){

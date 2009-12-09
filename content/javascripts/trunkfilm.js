@@ -32,9 +32,10 @@ TrunkFilm.Movies = {
 
   mouseIsOverVideo: function(x, y){
     var cw = $('#content-window');
-    var cw_position = cw.position();
+    var cw_left = cw.get(0).offsetLeft;
+    var cw_top = cw.get(0).offsetTop;
 
-    if((y > cw_position.top) && (y < (cw_position.top + cw.height())) && (x > cw_position.left) && (x < (cw_position.left + cw.width()))){
+    if((y > cw_top) && (y < (cw_top + cw.height())) && (x > cw_left) && (x < (cw_left + cw.width()))){
       return true;
     }
     return false;

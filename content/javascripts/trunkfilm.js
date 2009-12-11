@@ -22,9 +22,9 @@ TrunkFilm.Movies = {
     $('.arrow').hide();
     $().mousemove(function(e){
       if(TrunkFilm.Movies.mouseIsOverVideo(e.pageX, e.pageY)){
-        $('.arrow').show('fast');
+        $('.arrow').show();
       }else{
-        $('.arrow').hide('fast');
+        $('.arrow').hide();
       }
     });
     TrunkFilm.Movies.addSwobjects();
@@ -34,7 +34,6 @@ TrunkFilm.Movies = {
     var cw = $('#content-window');
     var cw_left = cw.get(0).offsetLeft;
     var cw_top = cw.get(0).offsetTop;
-
     if((y > cw_top) && (y < (cw_top + cw.height())) && (x > cw_left) && (x < (cw_left + cw.width()))){
       return true;
     }
@@ -70,7 +69,7 @@ TrunkFilm.Movies = {
     $('.movie object').each(function(){
       
       var flashvars = {
-        clip_id: this.id,
+        clip_id: this.id.replace(/movie_/,''),
         show_portrait: 1,
         show_byline: 1,
         show_title: 1,
@@ -78,7 +77,8 @@ TrunkFilm.Movies = {
       };
       var params = {
         allowscriptaccess: 'always',
-        allowfullscreen: 'true'
+        allowfullscreen: 'true',
+        wmode: "transparent"
       };
       var attributes = {};
       swfobject.embedSWF("http://vimeo.com/moogaloop.swf", this.id, TrunkFilm.Movies.width, TrunkFilm.Movies.height, "9.0.0","expressInstall.swf", flashvars, params, attributes);

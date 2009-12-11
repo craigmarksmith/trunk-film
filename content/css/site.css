@@ -126,14 +126,19 @@ div#movies {
 
 div.movie {
   display:inline;
+  height:506px;
+  width:900px;
 }
 
 div.arrow {
+  z-index:100;
   position:absolute;
   top:210px;
+  display:block;
 }
 
 div.arrow a {
+  z-index:100;
   padding-top:80px;
   display:block;
   overflow:hidden;

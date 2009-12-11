@@ -4,8 +4,6 @@ created_at:  2008-08-02 14:06:40.000000 -06:00
 filter:
   - erb
 ---
-<div id='scroll-left' class="arrow"><a href="">scroll movies left</a></div>
-<div id='scroll-right' class="arrow"><a href="">scroll movies right</a></div>
 <div id='movies'>
   <%
   height = 506
@@ -19,16 +17,18 @@ filter:
     url = "http://vimeo.com/moogaloop.swf?clip_id=#{clip_id}&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
   %>
   <div class='movie'>
-    <object id="<%= clip_id %>" width="<%= width %>" height="<%= height %>">
+    <object id="movie_<%= clip_id %>" width="<%= width %>" height="<%= height %>">
       <param name="allowfullscreen" value="true" />
       <param name="allowscriptaccess" value="always" />
       <param name="movie" value="<%= url %>" />
-      <embed src="<%= url %>" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="<%= width %>" height="<%= height %>"></embed>
+      <param name="wmode" value="transparent"/>
+      <embed src="<%= url %>" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="<%= width %>" height="<%= height %>" wmode="transparent"></embed>
     </object>
   </div>
   <% end %>
 </div>
-
+<div id='scroll-left' class="arrow"><a href="">scroll movies left</a></div>
+<div id='scroll-right' class="arrow"><a href="">scroll movies right</a></div>
 <script>
   $(document).ready(function(){
     TrunkFilm.Movies.init(<%= height %>, <%= width %>);

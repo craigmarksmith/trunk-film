@@ -13,17 +13,18 @@ filter:
   </div>
   <div id="texts">
     <div class="text">
-      <h2>We make films.</h2>
-      <p>trunk films is an independent production company based in London. We specialise in producing documentaries, original films, promos, TV demo’s and viral content for television, film and the web. Films that challenge perceptions, engage and inform their audiences.</p>
+      <h2>we make films.</h2>
+      <p>Trunk Films is an independent production company based in London. We specialise in producing documentaries, original films, promos, TV demo’s and viral content for television, film and the web. Films that challenge perceptions, engage and inform their audiences.</p>
     </div>
     <div class="text">
-      <h2>How &amp; What.</h2>
+      <h2>how &amp; what.</h2>
       <p>WE’VE SEEN THE FUTURE (of affordable HD film production) - it's pretty epic. We're using the latest High Definition Digital SLR  technology and HD video equipment.</p>
       <p>Our solid state (memory card) cameras and Final Cut Studio editing suite help us maintain a fast and efficient workflow to deliver your project on time and in budget.</p>
     </div>
     <div class="text">
       <h2>ethos</h2>
-      <p>trunk films was formed out of a shared enthusiasm for film. Film is a powerful medium capable of disseminating knowledge and challenging perceptions. We strive to make films with personality, films that are not only visually stimulating, but get the story across to the viewer in a fresh and engaging way.</p>
+      <p>Trunk Films was formed out of a shared enthusiasm for film. Film is a powerful medium capable of disseminating knowledge and challenging perceptions.</p>
+       <p>We strive to make films with personality, films that are not only visually stimulating, but get the story across to the viewer in a fresh and engaging way.</p>
     </div>
     <div class="text last">
       <h2>equipment.</h2>

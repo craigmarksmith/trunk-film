@@ -27,7 +27,7 @@ div#trunk-logo {
   float:left;
 }
 
-ul#menu {
+ul#menu, ul#social-media {
   float:left;
   margin:0;
   margin-top:49px;
@@ -78,6 +78,40 @@ ul#menu li#contact a:hover {
 
 ul#menu li#blog a:hover {
   background-image:url('../images/menu/blog-hover.png');
+}
+
+ul#social-media {
+  float:right;
+  padding:0;
+  margin:0;
+  margin-top:40px;
+}
+
+ul#social-media li {
+  padding-right: 5px;
+}
+
+ul#social-media li a {
+  display:block;
+  overflow:hidden;
+  background-repeat:no-repeat;
+  background-position:center center;
+  height:0;
+  padding-top:38px;
+  width:38px;
+  float:left;
+}
+
+ul#social-media li {
+  float:left;
+}
+
+ul#social-media li#twitter a {
+  background-image:url('../images/menu/twitter.png');
+}
+
+ul#social-media li#vimeo a {
+  background-image:url('../images/menu/vimeo.png');
 }
 
 div#contact-details {

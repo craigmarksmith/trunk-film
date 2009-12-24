@@ -30,6 +30,10 @@ filter:    erb
       <li id="contact"><a href="">contact</a></li>
       <li id="blog"><a href="javascript:void(0)" onclick="window.open('http://trunkfilms.wordpress.com/')">blog</a></li>
     </ul>
+    <ul id="social-media">
+      <li id="twitter"><a href="javascript:void(0)" onclick="window.open('http://twitter.com/trunkfilms')">twitter</a></li>
+      <li id="vimeo"><a href="javascript:void(0)" onclick="window.open('http://vimeo.com/trunkfilms')">vimeo</a></li>
+    </ul>
   </div>
   <div id='content-window'>
 

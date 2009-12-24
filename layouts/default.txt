@@ -38,23 +38,23 @@ filter:    erb
   <div id='content-window'>
 
     <div id="contact-details">
-      <div class='general'>
-      <h3>general inquiries:</h3>
-      info@trunkfilms.com<br/>
-      (+44) (0) 208 351 7257
+      <div class='general vcard'>
+        <h3>general inquiries:</h3>
+        <div class="hidden fn org">trunkfilms</div>
+        <div class="tel">(+44) (0) 208 351 7257</div>
+        <a class="email" href="mailto:info@trunkfilms.com">info@trunkfilms.com</a>
       </div>
 
-      <div class="personal-info">
-        Steve Middleditch<br/>
-        (+44) (0) 7763 629721<br/>
-        steve@trunkfilms.com
+      <div class="personal-info vcard">
+        <div class="fn">Steve Middleditch</div>
+        <div class="tel">(+44) (0) 7763 629721</div>
+        <a class="email" href="mailto:steve@trunkfilms.com">steve@trunkfilms.com</a>
       </div>
-      <div class="personal-info">
-        Will Billany<br/>
-        (+44) (0) 7760 489704<br/>
-        will@trunkfilms.com
+      <div class="personal-info vcard">
+        <div class="fn">Will Billany</div>
+        <div class="tel">(+44) (0) 7760 489704</div>
+        <a class="email" href="mailto:will@trunkfilms.com">will@trunkfilms.com</a>
       </div>
-
     </div>
 
     <%= @content %>

@@ -14,6 +14,10 @@ li {
   list-style-type: none;
 }
 
+.hidden {
+  display:none;
+}
+
 div#header div#trunk-logo a img {
   border:0;
 }
@@ -127,6 +131,10 @@ div#contact-details {
   padding:5px;
   font-size:13px;
   font-weight:lighter;
+}
+
+div#contact-details a {
+  color:#FFF;
 }
 
 div#contact-details h3 {

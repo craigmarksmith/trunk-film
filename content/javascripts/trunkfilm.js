@@ -9,7 +9,6 @@ TrunkFilm = {
 },
 
 TrunkFilm.Movies = {
-  amount_to_move: 904,
   current_position: 0,
   height: 0,
   width: 0,
@@ -42,7 +41,7 @@ TrunkFilm.Movies = {
 
   scrollLeft: function(){
     if(TrunkFilm.Movies.current_position > 0){
-      TrunkFilm.Movies.scroll('+='+TrunkFilm.Movies.amount_to_move+'px');
+      TrunkFilm.Movies.scroll('+='+TrunkFilm.Movies.amount_to_move()+'px');
       $('.movie object')[TrunkFilm.Movies.current_position].api_pause();
       TrunkFilm.Movies.current_position--;
     }
@@ -51,7 +50,7 @@ TrunkFilm.Movies = {
 
   scrollRight: function(){
     if(TrunkFilm.Movies.current_position < ($('.movie').size()-1)){
-      TrunkFilm.Movies.scroll('-='+TrunkFilm.Movies.amount_to_move+'px');
+      TrunkFilm.Movies.scroll('-='+TrunkFilm.Movies.amount_to_move()+'px');
       $('.movie object')[TrunkFilm.Movies.current_position].api_pause();
       TrunkFilm.Movies.current_position++;
     }
@@ -63,11 +62,15 @@ TrunkFilm.Movies = {
       marginLeft: scroll_amount
     }, 1000);
   },
-  
+
+  amount_to_move: function(){
+    return $($('.movie')[TrunkFilm.Movies.current_position]).width();
+  },
+
   addSwobjects: function(){
     var count = 0;
     $('.movie object').each(function(){
-      
+
       var flashvars = {
         clip_id: this.id.replace(/movie_/,''),
         show_portrait: 1,
@@ -109,7 +112,7 @@ TrunkFilm.AboutUs = {
     TrunkFilm.AboutUs.scroll('-');
     return false;
   },
-  
+
   scroll: function(direction){
     $('div#about-us img').animate({
       marginLeft: direction+'='+TrunkFilm.AboutUs.amount_to_move+'px'

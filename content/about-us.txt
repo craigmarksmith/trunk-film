@@ -14,27 +14,29 @@ filter:
   <div id="texts">
     <div class="text">
       <h2>we make films.</h2>
-      <p>Trunk Films is an independent production company based in London. We specialise in producing documentaries, original films, promos, TV demo’s and viral content for television, film and the web. Films that challenge perceptions, engage and inform their audiences.</p>
+      <p>Trunk Films is an independent production company based in London. We specialise in producing documentaries, original films, promos, TV demo’s and viral content for television, film and the web.</p>
+      <p> Films with personality, that challenge perceptions, engage, visually stimulate and inform their audiences.</p> 
     </div>
     <div class="text">
       <h2>how &amp; what.</h2>
-      <p>WE’VE SEEN THE FUTURE (of affordable HD film production) - it's pretty epic. We're using the latest High Definition Digital SLR  technology and HD video equipment.</p>
-      <p>Our solid state (memory card) cameras and Final Cut Studio editing suite help us maintain a fast and efficient workflow to deliver your project on time and in budget.</p>
+      <p>WE’VE SEEN THE FUTURE (of affordable HD film production) - it's pretty epic. We're using the latest High Definition Digital SLR technology and HD video equipment.</p>
+      <p>Our Final Cut Studio editing suites help us maintain a fast and efficient workflow to deliver your project on time and in budget.</p>
     </div>
     <div class="text">
       <h2>ethos</h2>
-      <p>Trunk Films was formed out of a shared enthusiasm for film. Film is a powerful medium capable of disseminating knowledge and challenging perceptions.</p>
-       <p>We strive to make films with personality, films that are not only visually stimulating, but get the story across to the viewer in a fresh and engaging way.</p>
+      <p>Trunk was formed out of a shared enthusiasm for film & the environment. We want to see a world where the values of social equality and environmental responsibility are held high.</p>
+       <p>Film is a vital tool in helping us achieve this. It is the reason why we make films and our chance to make a small but positive difference.</p>
     </div>
     <div class="text last">
       <h2>equipment.</h2>
       <ul>
-        <li>Canon EOS 7D Hybrid DSLR with fast primes and L lenses</li>
+        <li>Canon EOS 7D Hybrid DSLR with fast primes</li>
         <li>Sony HDR FX1 (HDV/SD)</li>
         <li>Sony HDR HC1 (HDV/SD)</li>
         <li>Rode & Sony Microphones</li>
-        <li>Lowel Rifa EX Interview Lights + litepanels LED lighting</li>
-        <li>Edit suites running Final Cut Studio</li>
+        <li>Lowel Rifa EX Interview Lights + litepanels LED toplight</li>
+        <li>Final Cut Studio edit suites</li>
+        <li>Rooibos tea</li>
       </ul>
     </div>
   </div>

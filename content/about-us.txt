@@ -23,7 +23,7 @@ filter:
       <p>Our Final Cut Studio editing suites help us maintain a fast and efficient workflow to deliver your project on time and in budget.</p>
     </div>
     <div class="text">
-      <h2>ethos</h2>
+      <h2>ethos.</h2>
       <p>Trunk was formed out of a shared enthusiasm for film & the environment. We want to see a world where the values of social equality and environmental responsibility are held high.</p>
        <p>Film is a vital tool in helping us achieve this. It is the reason why we make films and our chance to make a small but positive difference.</p>
     </div>
